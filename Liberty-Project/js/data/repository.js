@@ -61,7 +61,7 @@ const ContactData = Models.createContact(
     '6281285065866',  
     '+62 812-8506-5866',
     'info@libertytrans.com',
-    'Jl. Raya Transportasi No.88, Jakarta Timur',
+    'Jl. Dg. Ramang, Sudiang Raya, Kec. Biringkanaya, Kota Makassar, Sulawesi Selatan',
     'https://instagram.com/libertytrans',
     'https://facebook.com/libertytrans',
     'https://youtube.com/libertytrans',

@@ -1,6 +1,6 @@
 const MapRenderer = {
     render: (contact) => {
-        const mapSrc = "https://www.google.com/maps/search/Wisma%20Liberty/@-5.100029945373535,119.52474975585938,17z?hl=en";
+        const mapSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.7403557817574!2d119.5247405!3d-5.1000359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefbbc47328e95%3A0x16a5c03b2ab0b0b1!2sWisma%20Liberty!5e1!3m2!1sid!2sid!4v1776404649744!5m2!1sid!2sid";
         
         let mapSection = document.getElementById('lokasi');
         if (!mapSection) {
