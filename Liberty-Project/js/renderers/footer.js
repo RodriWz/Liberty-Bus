@@ -9,7 +9,7 @@ const FooterRenderer = {
                 <div class="container mx-auto px-4 md:px-6">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                         <div>
-                            <h4 class="text-white text-xl font-bold mb-4">Bus Prima Nusantara</h4>
+                            <h4 class="text-white text-xl font-bold mb-4">Bus Liberty Trans</h4>
                             <p class="text-sm">Melayani sewa bus pariwisata, antar kota, dan event di seluruh Indonesia. Profesional & terpercaya sejak 2012.</p>
                         </div>
                         <div>

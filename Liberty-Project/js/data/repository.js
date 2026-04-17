@@ -59,13 +59,13 @@ const TestimonialsData = [
 
 const ContactData = Models.createContact(
     '6281234567890',  
-    '+62 812-3456-7890',
-    'info@busprima.com',
+    '+62 812-8506-5866',
+    'info@libertytrans.com',
     'Jl. Raya Transportasi No.88, Jakarta Timur',
-    'https://instagram.com/busprima',
-    'https://facebook.com/busprima',
-    'https://youtube.com/busprima',
-    'https://tiktok.com/@busprima'
+    'https://instagram.com/libertytrans',
+    'https://facebook.com/libertytrans',
+    'https://youtube.com/libertytrans',
+    'https://tiktok.com/@libertytrans'
 );
 
 const Repository = {
