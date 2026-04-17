@@ -29,7 +29,7 @@ const FooterRenderer = {
                         </div>
                     </div>
                     <div class="text-center pt-8 border-t border-gray-800 text-sm">
-                        © 2025 Bus Prima Nusantara. All rights reserved.
+                        © 2025 Bus Liberty Trans. All rights reserved.
                     </div>
                 </div>
             </div>

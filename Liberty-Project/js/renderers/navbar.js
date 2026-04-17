@@ -11,8 +11,8 @@ const NavbarRenderer = {
                 <div class="container mx-auto px-4 md:px-6 py-4">
                     <div class="flex justify-between items-center flex-wrap gap-4">
                         <div>
-                            <h1 class="text-2xl md:text-3xl font-extrabold gradient-text">Bus Prima Nusantara</h1>
-                            <span class="text-sm text-gray-500">⭐ Perjalanan Aman & Premium</span>
+                            <h1 class="text-2xl md:text-3xl font-extrabold gradient-text">Liberty Trans</h1>
+                            <span class="text-sm text-gray-500">Perjalanan Aman & Premium</span>
                         </div>
                         <div class="flex items-center gap-4 md:gap-6 flex-wrap">
                             <a href="#home" class="text-gray-700 hover:text-red-600 font-semibold transition">Beranda</a>

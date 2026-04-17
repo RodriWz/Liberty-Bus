@@ -14,7 +14,7 @@
                                 Perjalanan Bisnis & Liburan
                                 <i class="fas fa-route text-orange-500"></i><br>
                                 Lebih Nyaman dengan 
-                                <span class="gradient-text">Bus Prima</span>
+                                <span class="gradient-text">Liberty</span>
                             </h1>
                             <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl lg:mx-0 mx-auto">
                                 Kami menyediakan bus pariwisata & antar kota dengan fasilitas AC, reclining seat, TV, dan supir berpengalaman. Aman, Tepat Waktu, dan Profesional.

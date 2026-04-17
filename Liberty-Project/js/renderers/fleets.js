@@ -1,7 +1,3 @@
-/**
- * RENDERER: FLEETS SECTION (ARMADA)
- */
-
 const FleetsRenderer = {
     render: (fleets) => {
         const fleetHtml = fleets.map(bus => `
