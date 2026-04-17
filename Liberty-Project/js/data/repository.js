@@ -58,7 +58,7 @@ const TestimonialsData = [
 ];
 
 const ContactData = Models.createContact(
-    '6281234567890',  
+    '6281285065866',  
     '+62 812-8506-5866',
     'info@libertytrans.com',
     'Jl. Raya Transportasi No.88, Jakarta Timur',
