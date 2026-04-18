@@ -2,7 +2,7 @@ const App = {
     init: () => {
         const services = Repository.getServices();
         const fleets = Repository.getFleets();
-        const testimonials = Repository.getTestimonials();
+        const gallery = Repository.getGallery();
         const contact = Repository.getContact();
 
         console.log("Contact data:", contact); // Debugging
@@ -11,7 +11,7 @@ const App = {
         HeroRenderer.render(contact);
         ServicesRenderer.render(services);
         FleetsRenderer.render(fleets);
-        TestimonialsRenderer.render(testimonials);
+        GalleryRenderer.render(gallery);
         CTARenderer.render(contact);
         FooterRenderer.render(contact);
         

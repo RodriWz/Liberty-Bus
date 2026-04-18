@@ -22,7 +22,7 @@ const ServicesRenderer = {
         document.getElementById('layanan').innerHTML = `
             <div class="container mx-auto px-4 md:px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Layanan Unggulan Kami</h2>
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Layanan Kami</h2>
                     <div class="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

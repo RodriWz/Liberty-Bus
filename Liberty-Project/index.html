@@ -1,37 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liberty Trans</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Liberty Trans - Sewa Bus & Transportasi Nyaman</title>
+    <meta
+      name="description"
+      content="Liberty Trans menyediakan layanan sewa bus pariwisata dan transportasi nyaman dengan harga terjangkau di Indonesia."
+    />
+    <meta
+      name="keywords"
+      content="sewa bus, transportasi, bus pariwisata, travel, Liberty Trans"
+    />
+    <meta name="author" content="Liberty Trans" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Liberty Trans" />
+    <meta
+      property="og:description"
+      content="Transportasi nyaman & aman untuk perjalanan Anda"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Style -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        .hover-scale:hover { transform: scale(1.05); }
-        .hover-lift:hover { transform: translateY(-8px); box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15); }
-        .transition { transition: all 0.3s ease; }
-        .gradient-text { background: linear-gradient(135deg, #D32F2F, #F57C00); -webkit-background-clip: text; background-clip: text; color: transparent; }
-        .shadow-custom { box-shadow: 0 25px 40px -12px rgba(0,0,0,0.25); }
-        .animate-fade-in { animation: fadeInUp 0.6s ease-out; }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+      }
+      .hover-lift:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.15);
+      }
+      .transition {
+        transition: all 0.3s ease;
+      }
     </style>
-</head>
-<body class="bg-gray-50 text-gray-800">
+  </head>
 
-    <nav id="navbar" class="sticky top-0 z-50"></nav>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- NAVBAR -->
+    <nav id="navbar" class="sticky top-0 z-50">
+      <h1 class="text-xl font-bold text-center p-4">Liberty Trans</h1>
+    </nav>
+
     <main>
-        <section id="home"></section>
-        <section id="layanan" class="py-20 bg-white"></section>
-        <section id="armada" class="py-20 bg-gray-50"></section>
-        <section id="testimoni" class="py-20 bg-orange-50"></section>
-        <section id="kontak"></section>
-    </main>
-    <footer id="footer"></footer>
+      <!-- HERO (ADA ISI SEKARANG) -->
+      <section id="home" class="text-center">
+        <h1 class="text-4xl font-bold">Liberty Trans</h1>
+        <p class="mt-4 text-lg">
+          Layanan sewa bus dan transportasi terpercaya di Indonesia
+        </p>
+      </section>
 
-    <!-- LOAD FILE JS DENGAN URUTAN YANG BENAR -->
+      <!-- LAYANAN -->
+      <section id="layanan" class="py-10 bg-white text-center">
+        <h2 class="text-3xl font-semibold">Layanan Kami</h2>
+        <p class="mt-4">
+          Sewa bus pariwisata, travel, dan transportasi nyaman untuk perjalanan
+          Anda.
+        </p>
+      </section>
+
+      <!-- ARMADA -->
+      <section id="armada" class="py-10 bg-gray-50 text-center">
+        <h2 class="text-3xl font-semibold">Armada Kami</h2>
+        <p class="mt-4">Berbagai pilihan bus dengan fasilitas terbaik.</p>
+      </section>
+
+      <!-- TESTIMONI -->
+      <section id="testimoni" class="py-10 bg-orange-50 text-center">
+        <h2 class="text-3xl font-semibold">Testimoni</h2>
+        <p class="mt-4">
+          Dipercaya oleh banyak pelanggan di seluruh Indonesia.
+        </p>
+      </section>
+
+      <!-- KONTAK -->
+      <section id="kontak" class="text-center">
+        <h2 class="text-3xl font-semibold">Kontak</h2>
+        <p class="mt-4">
+          Hubungi kami untuk pemesanan dan informasi lebih lanjut.
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="text-center p-6 bg-gray-800 text-white">
+      <p>© 2026 Liberty Trans</p>
+    </footer>
+
+    <!-- JS KAMU (TETAP DIPAKAI) -->
     <script src="js/entities/models.js"></script>
     <script src="js/utils/helpers.js"></script>
     <script src="js/data/repository.js"></script>
@@ -39,10 +116,10 @@
     <script src="js/renderers/hero.js"></script>
     <script src="js/renderers/services.js"></script>
     <script src="js/renderers/fleets.js"></script>
-    <script src="js/renderers/testimonials.js"></script>
+    <script src="js/renderers/gallery.js"></script>
     <script src="js/renderers/cta.js"></script>
     <script src="js/renderers/footer.js"></script>
     <script src="js/renderers/map.js"></script>
     <script src="js/app.js"></script>
-</body>
-</html> 
+  </body>
+</html>

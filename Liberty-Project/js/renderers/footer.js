@@ -10,7 +10,7 @@ const FooterRenderer = {
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                         <div>
                             <h4 class="text-white text-xl font-bold mb-4">Bus Liberty Trans</h4>
-                            <p class="text-sm">Melayani sewa bus pariwisata, antar kota, dan event di seluruh Indonesia. Profesional & terpercaya sejak 2012.</p>
+                            <p class="text-sm">Percayakan perjalanan Anda bersama Liberty Trans Wisata. Nikmati layanan transportasi yang aman, nyaman, dan terpercaya untuk setiap momen perjalanan Anda.</p>
                         </div>
                         <div>
                             <h4 class="text-white text-xl font-bold mb-4">Alamat Operasional</h4>

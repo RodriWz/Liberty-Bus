@@ -1,17 +1,23 @@
 const FleetsRenderer = {
-    render: (fleets) => {
-        const fleetHtml = fleets.map(bus => `
+  render: (fleets) => {
+    const fleetHtml = fleets
+      .map(
+        (bus) => `
             <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift transition">
                 <img src="${bus.imageUrl}" alt="${bus.name}" class="w-full h-56 object-cover">
                 <div class="p-6">
                     <h4 class="text-xl font-bold mb-2">${bus.name}</h4>
                     <p class="text-gray-600 text-sm mb-3">${bus.description}</p>
                     <div class="flex flex-wrap gap-2 mb-4">
-                        ${bus.facilities.map(f => `
+                        ${bus.facilities
+                          .map(
+                            (f) => `
                             <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full flex items-center gap-1">
                                 <i class="fas ${Helpers.getFacilityIcon(f)} text-orange-500 text-xs"></i> ${f}
                             </span>
-                        `).join('')}
+                        `,
+                          )
+                          .join("")}
                     </div>
                     <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
                         <span class="text-red-600 font-bold text-lg">${bus.price}</span>
@@ -21,9 +27,11 @@ const FleetsRenderer = {
                     </div>
                 </div>
             </div>
-        `).join('');
-        
-        document.getElementById('armada').innerHTML = `
+        `,
+      )
+      .join("");
+
+    document.getElementById("armada").innerHTML = `
             <div class="container mx-auto px-4 md:px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Armada Modern & Terawat</h2>
@@ -35,5 +43,5 @@ const FleetsRenderer = {
                 </div>
             </div>
         `;
-    }
+  },
 };

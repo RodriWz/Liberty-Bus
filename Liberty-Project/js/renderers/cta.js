@@ -4,11 +4,11 @@
 
 const CTARenderer = {
     render: (contact) => {
-        const waLink = Helpers.makeWALink(contact.wa, Helpers.getWAMessage());
+        const waLink = Helpers.makeWALink(contact.wa, contact.waMessage);
         
         document.getElementById('kontak').innerHTML = `
-            <div class="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16 md:py-20">
-                <div class="container mx-auto px-4 md:px-6 text-center">
+            <div class="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">  <!-- ← kurangi padding bottom -->
+                <div class="container mx-auto px-4 text-center">
                     <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Siap untuk Perjalanan Terbaik?</h2>
                     <p class="text-gray-300 max-w-2xl mx-auto mb-8">
                         Dapatkan penawaran spesial untuk rombongan Anda. Hubungi kami sekarang untuk konsultasi gratis jadwal & harga sewa bus.

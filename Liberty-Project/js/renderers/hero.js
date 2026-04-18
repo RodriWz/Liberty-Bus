@@ -17,21 +17,18 @@
                                 <span class="gradient-text">Liberty</span>
                             </h1>
                             <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl lg:mx-0 mx-auto">
-                                Kami menyediakan bus pariwisata & antar kota dengan fasilitas AC, reclining seat, TV, dan supir berpengalaman. Aman, Tepat Waktu, dan Profesional.
+                                Liberty Trans Wisata menyediakan layanan sewa bus pariwisata murah di Makassar dengan kualitas terbaik. Kami menghadirkan armada bus yang bersih, nyaman, dan terawat, serta didukung oleh sopir berpengalaman dan profesional untuk memastikan perjalanan Anda aman dan menyenangkan.
                             </p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                                 <a href="${waLink}" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold flex items-center justify-center gap-3 transition hover-scale shadow-lg">
                                     <i class="fab fa-whatsapp text-xl"></i> Hubungi via WA
                                 </a>
                                 <a href="#armada" class="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-3 rounded-full font-bold transition text-center">
-                                    Lihat Armada →
+                                    Lihat Bis →
                                 </a>
                             </div>
                         </div>
-                        <div class="flex-1">
-                            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&auto=format" 
-                                 alt="Bus modern mewah" 
-                                 class="rounded-3xl shadow-custom w-full max-w-md mx-auto lg:max-w-full">
+                        <img src="img/bis1.png" class="rounded-3xl shadow-custom w-full max-w-md mx-auto">
                         </div>
                     </div>
                 </div>
