@@ -55,12 +55,12 @@ const FleetsData = [
 const GalleryData = [
     {
         id: 1,
-        imageUrl: 'images/study-tour.jpg',
+        imageUrl: 'img/doc1.png',
         title: 'Study Tour SMK Negeri 2',
         customer: 'SMK Negeri 2 Jakarta',
-        destination: 'Jakarta - Bandung',
+        destination: 'Makassar - Toraja',
         date: '15 Maret 2025',
-        busType: 'Bus Executive 44 Seat',
+        busType: 'Bus Parawisata 2',
         description: 'Perjalanan study tour 3 hari 2 malam bersama 40 siswa'
     },
     {

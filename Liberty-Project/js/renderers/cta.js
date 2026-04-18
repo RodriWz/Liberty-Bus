@@ -11,7 +11,7 @@ const CTARenderer = {
                 <div class="container mx-auto px-4 text-center">
                     <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Siap untuk Perjalanan Terbaik?</h2>
                     <p class="text-gray-300 max-w-2xl mx-auto mb-8">
-                        Dapatkan penawaran spesial untuk rombongan Anda. Hubungi kami sekarang untuk konsultasi gratis jadwal & harga sewa bus.
+                        Hubungi kami sekarang untuk konsultasi jadwal & harga sewa bus.
                     </p>
                     <a href="${waLink}" target="_blank" class="inline-flex bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full font-bold text-lg items-center gap-3 transition hover-scale shadow-xl">
                         <i class="fab fa-whatsapp text-2xl"></i> Chat via WhatsApp
