@@ -55,9 +55,8 @@ const FleetsData = [
 const GalleryData = [
     {
         id: 1,
-        imageUrl: 'img/doc1.png',
-        title: 'Study Tour SMK Negeri 2',
-        customer: 'SMK Negeri 2 Jakarta',
+        title: 'Study Tour',
+        customer: 'SMA Negeri 1 Makassar',
         destination: 'Makassar - Toraja',
         date: '15 Maret 2025',
         busType: 'Bus Parawisata 2',
@@ -65,23 +64,21 @@ const GalleryData = [
     },
     {
         id: 2,
-        imageUrl: 'images/outing-kantor.jpg',
-        title: 'Outing Kantor PT Maju Jaya',
-        customer: 'PT Maju Jaya Group',
-        destination: 'Jakarta - Pangandaran',
+        title: 'Keluarga Besar',
+        customer: 'Keluarga dari toraja',
+        destination: 'Makassar - Manado',
         date: '10 April 2025',
-        busType: 'Bus Pariwisata 31 Seat',
-        description: 'Acara outing 2 hari bersama 28 karyawan'
+        busType: 'Bus Pariwisata 2',
+        description: 'Perjalanan Keluarga besar 60 orang untuk liburan akhir tahun ke Manado'
     },
     {
         id: 3,
-        imageUrl: 'images/wedding-trip.jpg',
-        title: 'Wedding Trip Keluarga H. Slamet',
-        customer: 'Keluarga H. Slamet',
-        destination: 'Jakarta - Yogyakarta',
+        title: 'Wisata Rohani',
+        customer: 'Rukun St Agustinus',
+        destination: 'Makassar - Pantai Bira',
         date: '5 April 2025',
-        busType: 'Bus Executive 44 Seat',
-        description: 'Perjalanan rombongan walimatul ursy 50 orang'
+        busType: 'Bus Parawisata 1',
+        description: 'Perjalanan wisata rohani keluarga besar 30 orang ke Pantai Bira untuk liburan akhir pekan'
     },
 ];
 
