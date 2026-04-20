@@ -6,7 +6,7 @@ const HeroRenderer = {
             <div class="relative bg-gray-900 min-h-[80vh] flex items-center">
                 <!-- Gambar background dengan opacity rendah -->
                 <div class="absolute inset-0 opacity-30">
-                    <img src="img/bis1.png" class="w-full h-full object-cover">
+                    <img src="img/bis1.webp" class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Konten di atas gambar -->

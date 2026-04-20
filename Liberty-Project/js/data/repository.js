@@ -45,8 +45,8 @@ const FleetsData = [
       "Reclining Seat",
       "WiFi",
     ],
-    imageUrl: "img/bis1.png",
-    price: "Mulai Rp 2.500.000",
+    imageUrl: "img/bis1.webp",
+    price: "Mulai Rp 1.700.000",
   },
   {
     id: 2,
@@ -60,8 +60,8 @@ const FleetsData = [
       "Microphone",
       "Bagasi besar",
     ],
-    imageUrl: "img/bis2.jpeg",
-    price: "Mulai Rp 2.000.000",
+    imageUrl: "img/bis2.webp",
+    price: "Mulai Rp 1.700.000",
   },
 ];
 
