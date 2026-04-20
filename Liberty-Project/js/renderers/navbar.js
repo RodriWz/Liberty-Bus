@@ -3,15 +3,15 @@
  */
 
 const NavbarRenderer = {
-    render: (contact) => {
-        const waLink = Helpers.makeWALink(contact.wa, Helpers.getWAMessage());
-        
-        document.getElementById('navbar').innerHTML = `
+  render: (contact) => {
+    const waLink = Helpers.makeWALink(contact.wa, Helpers.getWAMessage());
+
+    document.getElementById("navbar").innerHTML = `
             <div class="bg-white/95 backdrop-blur-md border-b border-gray-100">
                 <div class="container mx-auto px-4 md:px-6 py-4">
                     <div class="flex justify-between items-center flex-wrap gap-4">
                         <div>
-                            <h1 class="text-2xl md:text-3xl font-extrabold gradient-text">Liberty Trans</h1>
+                            <h1 class="text-2xl md:text-3xl font-extrabold gradient-text">Liberty Trans Wisata</h1>
                             <span class="text-sm text-gray-500">Perjalanan Aman & Premium</span>
                         </div>
                         <div class="flex items-center gap-4 md:gap-6 flex-wrap">
@@ -27,5 +27,5 @@ const NavbarRenderer = {
                 </div>
             </div>
         `;
-    }
+  },
 };

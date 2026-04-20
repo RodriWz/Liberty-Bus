@@ -1,0 +1,71 @@
+/* ============================================================
+   css/style.css
+   Custom styles Liberty Trans
+   (Tailwind utility classes tetap di HTML,
+    ini hanya untuk styles yang tidak bisa pakai Tailwind)
+============================================================ */
+
+/* --- Base --- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* --- Animasi Hover --- */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.15);
+}
+
+/* Override class "transition" bawaan Tailwind */
+.transition {
+  transition: all 0.3s ease;
+}
+
+/* --- Gambar (Cegah Layout Shift / CLS) --- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Hero image — pastikan tidak loncat saat loading */
+.hero-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* --- Skeleton Loading ---
+   Dipakai saat JS belum selesai render konten
+   Contoh pakai: <div class="skeleton" style="height:200px;"></div>
+*/
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes skeleton-loading {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

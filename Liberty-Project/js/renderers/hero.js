@@ -1,8 +1,8 @@
 const HeroRenderer = {
-    render: (contact) => {
-        const waLink = Helpers.makeWALink(contact.wa, Helpers.getWAMessage());
-        
-        document.getElementById('home').innerHTML = `
+  render: (contact) => {
+    const waLink = Helpers.makeWALink(contact.wa, Helpers.getWAMessage());
+
+    document.getElementById("home").innerHTML = `
             <div class="relative bg-gray-900 min-h-[80vh] flex items-center">
                 <!-- Gambar background dengan opacity rendah -->
                 <div class="absolute inset-0 opacity-30">
@@ -14,7 +14,7 @@ const HeroRenderer = {
                     <div class="max-w-2xl">
                         <p class="text-orange-400 text-sm uppercase tracking-wider mb-4">Liberty Trans Wisata</p>
                         <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-                            Sewa Bus<br>
+                            Sewa Bus Pariwisata <w>
                             di <span class="text-orange-400">Makassar</span>
                         </h1>
                         <p class="text-gray-300 text-lg mt-6 mb-8 leading-relaxed">
@@ -33,5 +33,5 @@ const HeroRenderer = {
                 </div>
             </div>
         `;
-    }
+  },
 };
