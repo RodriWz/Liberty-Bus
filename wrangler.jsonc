@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "liberty-bus",
+  "compatibility_date": "2026-04-21",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "Liberty-Project"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
