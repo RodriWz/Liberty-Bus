@@ -1,52 +1,51 @@
+import { Repository } from "./data/repository.js";
+import { loadSiteData } from "./usecases/loadSiteData.js";
+
 const App = {
-  loadScript: (src) =>
-    new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = false;
-      script.onload = () => resolve();
-      script.onerror = () => reject(new Error(`Failed to load ${src}`));
-      document.body.appendChild(script);
-    }),
-
   init: async () => {
-    const services = Repository.getServices();
-    const fleets = Repository.getFleets();
-    const gallery = Repository.getGallery();
-    const contact = Repository.getContact();
+    const { services, fleets, gallery, contact } = loadSiteData(Repository);
 
-    NavbarRenderer.render(contact);
-    HeroRenderer.render(contact);
-    FooterRenderer.render(contact);
+    const [{ renderNavbar }, { renderHero }, { renderFooter }] =
+      await Promise.all([
+        import("./sections/navbar.js"),
+        import("./sections/hero.js"),
+        import("./sections/footer.js"),
+      ]);
 
-    const loadDeferredRenderers = async () => {
+    renderNavbar(contact);
+    renderHero(contact);
+    renderFooter(contact);
+
+    const loadDeferredSections = async () => {
       try {
-        await App.loadScript("js/renderers/services.js");
-        await App.loadScript("js/renderers/fleets.js");
-        await App.loadScript("js/renderers/gallery.js");
-        await App.loadScript("js/renderers/cta.js");
+        const [
+          { renderServices },
+          { renderFleets },
+          { renderGallery },
+          { renderCTA },
+          { renderMap },
+        ] = await Promise.all([
+          import("./sections/services.js"),
+          import("./sections/fleets.js"),
+          import("./sections/gallery.js"),
+          import("./sections/cta.js"),
+          import("./sections/map.js"),
+        ]);
 
-        if (typeof MapRenderer === "undefined") {
-          await App.loadScript("js/renderers/map.js");
-        }
-
-        ServicesRenderer.render(services);
-        FleetsRenderer.render(fleets);
-        GalleryRenderer.render(gallery);
-        CTARenderer.render(contact);
-
-        if (typeof MapRenderer !== "undefined") {
-          MapRenderer.render(contact);
-        }
+        renderServices(services);
+        renderFleets(fleets);
+        renderGallery(gallery, contact);
+        renderCTA(contact);
+        renderMap(contact);
       } catch (error) {
         console.error(error);
       }
     };
 
     if ("requestIdleCallback" in window) {
-      requestIdleCallback(() => loadDeferredRenderers(), { timeout: 2000 });
+      requestIdleCallback(loadDeferredSections, { timeout: 2000 });
     } else {
-      setTimeout(() => loadDeferredRenderers(), 1000);
+      setTimeout(loadDeferredSections, 1000);
     }
   },
 };

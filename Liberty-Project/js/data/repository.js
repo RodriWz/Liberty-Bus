@@ -1,3 +1,5 @@
+import { Models } from "../entities/models.js";
+
 const ServicesData = [
   Models.createService(
     1,
@@ -108,7 +110,7 @@ const ContactData = Models.createContact(
   "https://tiktok.com/@libertytrans",
 );
 
-const Repository = {
+export const Repository = {
   getServices: () => ServicesData,
   getFleets: () => FleetsData,
   getGallery: () => GalleryData,
