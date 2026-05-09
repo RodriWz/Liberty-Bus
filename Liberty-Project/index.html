@@ -42,7 +42,86 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Schema.org Structured Data -->
-    <script src="seo/schema.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Liberty Trans",
+        "description": "Layanan sewa bus pariwisata dan transportasi di Makassar. Armada bersih, sopir profesional, harga bersaing untuk study tour, outing kantor, dan wisata keluarga.",
+        "url": "https://libertytrans.id",
+        "logo": "https://libertytrans.id/images/logo.png",
+        "image": "https://libertytrans.id/images/og-image.jpg",
+        "telephone": "+62-812-8506-5866",
+        "email": "info@libertytrans.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Dg. Ramang, Sudiang Raya",
+          "addressLocality": "Makassar",
+          "addressSubLocality": "Kec. Biringkanaya",
+          "addressRegion": "Sulawesi Selatan",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -5.0731,
+          "longitude": 119.5143
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "07:00",
+            "closes": "21:00"
+          }
+        ],
+        "priceRange": "Rp 2.000.000 - Rp 2.500.000",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Layanan Liberty Trans",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Sewa Bus Pariwisata",
+                "description": "Sewa bus pariwisata murah di Makassar untuk study tour, outing kantor, dan wisata keluarga."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Premium Executive",
+                "description": "Bus VIP dengan layanan prima, kursi rebah, stop kontak, dan hiburan lengkap."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Antar Jemput Bandara",
+                "description": "Layanan antar jemput bandara yang nyaman, tepat waktu, dan aman untuk rombongan."
+              }
+            }
+          ]
+        },
+        "sameAs": [
+          "https://wa.me/6281285065866",
+          "https://instagram.com/libertytrans",
+          "https://facebook.com/libertytrans",
+          "https://youtube.com/libertytrans",
+          "https://tiktok.com/@libertytrans"
+        ]
+      }
+    </script>
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -89,12 +168,12 @@
     </nav>
 
     <main>
-      <!-- HERO --><link rel="stylesheet" href="css/output.css" />
+      <!-- HERO -->
       <section id="home" class="text-center">
         <h1 class="text-4xl font-bold">
           Sewa Bus Makassar - Liberty Trans Makassar
         </h1>
-        
+
         <div class="mt-6 flex gap-4 justify-center flex-wrap">
           <a
             href="https://wa.me/62xxxxxxxxxx?text=Halo%20Liberty%20Trans"
@@ -157,12 +236,7 @@
     <script src="js/data/repository.js" defer></script>
     <script src="js/renderers/navbar.js" defer></script>
     <script src="js/renderers/hero.js" defer></script>
-    <script src="js/renderers/services.js" defer></script>
-    <script src="js/renderers/fleets.js" defer></script>
-    <script src="js/renderers/gallery.js" defer></script>
-    <script src="js/renderers/cta.js" defer></script>
     <script src="js/renderers/footer.js" defer></script>
-    <script src="js/renderers/map.js" defer></script>
     <script src="js/app.js" defer></script>
   </body>
 </html>
