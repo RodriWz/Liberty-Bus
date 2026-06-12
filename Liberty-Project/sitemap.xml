@@ -8,11 +8,19 @@
     <priority>1.0</priority>
   </url>
   
-  <!-- Blog section (for future content) -->
+  <!-- Blog section -->
   <url>
     <loc>https://libertytrans.id/blog/</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Post 1: Daftar Lengkap Sewa Bus -->
+  <url>
+    <loc>https://libertytrans.id/blog/daftar-sewa-bus-makassar/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
