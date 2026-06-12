@@ -7,15 +7,12 @@ const App = {
       const { services, fleets, gallery, contact } = loadSiteData(Repository);
 
       // Load critical sections (navbar, hero) first for immediate rendering
-      const [
-        { renderNavbar },
-        { renderHero },
-        { renderFooter },
-      ] = await Promise.all([
-        import("./sections/navbar.js"),
-        import("./sections/hero.js"),
-        import("./sections/footer.js"),
-      ]);
+      const [{ renderNavbar }, { renderHero }, { renderFooter }] =
+        await Promise.all([
+          import("./sections/navbar.js"),
+          import("./sections/hero.js"),
+          import("./sections/footer.js"),
+        ]);
 
       // Render critical sections immediately
       renderNavbar(contact);
