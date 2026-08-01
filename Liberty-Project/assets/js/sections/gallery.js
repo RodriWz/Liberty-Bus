@@ -25,7 +25,7 @@ export function renderGallery(gallery, contact) {
                 ${'<i class="fas fa-star"></i>'.repeat(5)}
               </div>
             </div>
-            <p class="text-gray-600 text-sm mt-3 italic">"${item.description.substring(0, 100)}..."</p>
+            <p class="text-gray-600 text-sm mt-3 italic">"${item.description.substring(0, 120)}..."</p>
             <div class="flex items-center gap-2 mt-3">
               <span class="text-xs text-gray-500">🚍 ${item.busType}</span>
               <span class="text-xs text-gray-500">📍 ${item.destination}</span>

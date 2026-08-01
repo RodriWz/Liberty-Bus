@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Liberty Trans favicon">
+  <rect width="64" height="64" rx="14" fill="#ef4444"/>
+  <path d="M16 22h32v18H16z" fill="#fff"/>
+  <path d="M20 22l8-10h8l8 10h-24z" fill="#f59e0b"/>
+  <circle cx="24" cy="40" r="4" fill="#fff"/>
+  <circle cx="40" cy="40" r="4" fill="#fff"/>
+  <path d="M18 42h28" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 24h20" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
+</svg>

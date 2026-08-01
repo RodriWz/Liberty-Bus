@@ -5,7 +5,7 @@ const ServicesData = [
     1,
     "fas fa-users",
     "Sewa Bus Pariwisata",
-    "Sewa bus pariwisata murah di Makassar untuk study tour, outing kantor, dan wisata keluarga dengan armada bersih, nyaman, kapasitas 31–59 seat.",
+    "Layanan sewa bus nyaman untuk study tour, outing kantor, wisata keluarga, dan perjalanan rombongan dengan armada bersih dan kapasitas variatif.",
     "red",
   ),
 
@@ -13,7 +13,7 @@ const ServicesData = [
     2,
     "fas fa-charging-station",
     "Premium Executive",
-    "Bus VIP dengan layanan prima, dilengkapi kursi rebah, stop kontak, hiburan, dan fasilitas lengkap untuk perjalanan lebih nyaman dan eksklusif.",
+    "Bus VIP dengan kursi nyaman, stop kontak, WiFi, dan fasilitas lengkap untuk perjalanan keluarga, kantor, atau wisata yang lebih eksklusif.",
     "orange",
   ),
 
@@ -21,15 +21,15 @@ const ServicesData = [
     3,
     "fas fa-clock",
     "Antar Jemput Bandara",
-    "Layanan antar jemput bandara yang nyaman, tepat waktu, dan aman untuk rombongan dengan armada ber-AC dan sopir berpengalaman.",
+    "Pelayanan antar jemput bandara yang tepat waktu, aman, dan nyaman untuk rombongan maupun keluarga yang ingin langsung menuju tujuan.",
     "red",
   ),
 
   Models.createService(
     4,
     "fas fa-shield-alt",
-    "Asuransi Perjalanan",
-    "Setiap perjalanan dilengkapi asuransi penumpang dan standar keamanan tinggi untuk memastikan perjalanan lebih aman dan tenang.",
+    "Paket Hemat Rombongan",
+    "Tersedia paket hemat untuk rombongan besar dengan harga kompetitif, armada terawat, dan layanan yang konsisten.",
     "orange",
   ),
 ];
@@ -37,9 +37,9 @@ const ServicesData = [
 const FleetsData = [
   {
     id: 1,
-    name: "Bus Parawisata 1",
+    name: "Bus Pariwisata Executive",
     description:
-      "Pengalaman perjalanan mewah dengan kursi reclining dan hiburan lengkap",
+      "Pilihan terbaik untuk perjalanan keluarga, study tour, dan rombongan dengan fasilitas nyaman dan modern.",
     facilities: [
       "AC Dingin",
       "Charger USB",
@@ -47,14 +47,14 @@ const FleetsData = [
       "Reclining Seat",
       "WiFi",
     ],
-    imageUrl: "img/bis1.webp",
+    imageUrl: "assets/img/bis1.webp",
     price: "Mulai Rp 1.700.000",
   },
   {
     id: 2,
-    name: "Bus Pariwisata 2",
+    name: "Bus Pariwisata Premium",
     description:
-      "Legroom luas, bagasi besar, perfect untuk perjalanan rombongan",
+      "Cocok untuk perjalanan jauh, rombongan besar, dan wisata santai dengan ruang bagasi luas.",
     facilities: [
       "AC Dingin",
       "Karaoke",
@@ -62,7 +62,7 @@ const FleetsData = [
       "Microphone",
       "Bagasi besar",
     ],
-    imageUrl: "img/bis2.webp",
+    imageUrl: "assets/img/bis2.webp",
     price: "Mulai Rp 1.700.000",
   },
 ];
