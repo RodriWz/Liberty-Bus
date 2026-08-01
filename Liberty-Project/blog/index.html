@@ -71,24 +71,60 @@
     </nav>
 
     <!-- Hero -->
-    <section class="bg-gradient-to-br from-red-600 via-red-700 to-orange-500 text-white py-20">
-      <div class="container mx-auto px-4 text-center">
-        <div class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium mb-6">
+    <section class="relative bg-gray-900 text-white py-20 md:py-32">
+      <div class="absolute inset-0 opacity-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-red-600 via-red-700 to-orange-500"></div>
+      </div>
+      <div class="relative container mx-auto px-4 text-center z-10">
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-medium mb-6">
           <i class="fas fa-newspaper"></i>
-          <span>Blog Liberty Trans</span>
+          <span>Blog & Panduan Lengkap</span>
         </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Panduan & Tips Sewa Bus</h1>
-        <p class="text-xl text-red-50 max-w-3xl mx-auto leading-relaxed">
-          Temukan informasi lengkap tentang sewa bus pariwisata, harga, fasilitas, dan tips perjalanan aman di Makassar.
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Tips & Panduan Sewa Bus di Makassar</h1>
+        <p class="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+          Pelajari cara memilih bus pariwisata yang tepat, bandingkan harga, dan ketahui tips perjalanan aman untuk rombongan Anda.
         </p>
       </div>
     </section>
 
-    <!-- Blog Posts Grid -->
-    <section class="py-16">
+    <!-- Why Read Our Blog -->
+    <section class="py-16 bg-white">
       <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <div class="rounded-2xl border border-slate-200 p-6 text-center shadow-sm">
+            <div class="w-14 h-14 rounded-full bg-red-50 text-red-600 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-info-circle text-2xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Informasi Lengkap</h3>
+            <p class="text-slate-600 text-sm mt-2">Panduan komprehensif tentang sewa bus dengan harga transparan.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 p-6 text-center shadow-sm">
+            <div class="w-14 h-14 rounded-full bg-orange-50 text-orange-600 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-lightbulb text-2xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Tips Praktis</h3>
+            <p class="text-slate-600 text-sm mt-2">Trik dan strategi memilih bus terbaik untuk berbagai kebutuhan.</p>
+          </div>
+          <div class="rounded-2xl border border-slate-200 p-6 text-center shadow-sm">
+            <div class="w-14 h-14 rounded-full bg-green-50 text-green-600 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-check-circle text-2xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900">Terpercaya</h3>
+            <p class="text-slate-600 text-sm mt-2">Informasi akurat dari pengalaman bertahun-tahun melayani.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="py-20 bg-slate-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-3">Artikel Terbaru</h2>
+          <p class="text-slate-600 text-lg">Baca panduan lengkap tentang sewa bus pariwisata di Makassar</p>
+        </div>
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12"
         >
           <!-- Blog Post 1 -->
           <article
@@ -171,21 +207,25 @@
               </div>
             </div>
           </article>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- CTA -->
-        <div class="mt-16 text-center rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-          <p class="text-gray-600 mb-6 text-lg">
-            Ingin mendapatkan promo dan tips terbaru dari Liberty Trans?
-          </p>
-          <a
-            href="https://wa.me/6281285065866"
-            target="_blank"
-            class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold transition"
-          >
-            <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
-          </a>
-        </div>
+    <!-- Featured CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-red-600 to-orange-500 text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Butuh Konsultasi Langsung?</h2>
+        <p class="text-xl text-red-50 max-w-2xl mx-auto mb-8 leading-relaxed">
+          Hubungi tim Liberty Trans sekarang untuk mendapatkan penawaran terbaik dan solusi sewa bus yang sesuai kebutuhan Anda.
+        </p>
+        <a
+          href="https://wa.me/6281285065866"
+          target="_blank"
+          class="inline-flex items-center gap-2 bg-white text-red-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-red-50 transition shadow-lg"
+        >
+          <i class="fab fa-whatsapp"></i> Chat via WhatsApp Sekarang
+        </a>
       </div>
     </section>
 
